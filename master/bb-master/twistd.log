@@ -1,0 +1,194 @@
+2022-02-11 07:34:38+0530 [-] Loading buildbot.tac...
+2022-02-11 07:34:40+0530 [-] Loaded.
+2022-02-11 07:34:40+0530 [-] twistd 22.1.0 (/usr/bin/python3 3.8.10) starting up.
+2022-02-11 07:34:40+0530 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2022-02-11 07:34:40+0530 [-] Starting BuildMaster -- buildbot.version: 3.4.1
+2022-02-11 07:34:40+0530 [-] Loading configuration from '/home/phoenix/master/bb-master/master.cfg'
+2022-02-11 07:34:40+0530 [-] /usr/local/lib/python3.8/dist-packages/buildbot/config.py:386: buildbot.warnings.ConfigWarning: `buildbotNetUsageData` is not configured and defaults to basic.
+	This parameter helps the buildbot development team to understand the installation base.
+	No personal information is collected.
+	Only installation software version info and plugin usage is sent.
+	You can `opt-out` by setting this variable to None.
+	Or `opt-in` for more information by setting it to "full".
+	
+2022-02-11 07:34:40+0530 [-] Setting up database with URL 'sqlite:/state.sqlite'
+2022-02-11 07:34:40+0530 [-] setting database journal mode to 'wal'
+2022-02-11 07:34:40+0530 [-] adding 1 new change_sources, removing 0
+2022-02-11 07:34:40+0530 [-] gitpoller: using workdir '/home/phoenix/master/bb-master/gitpoller-workdir'
+2022-02-11 07:34:40+0530 [-] adding 1 new builders, removing 0
+2022-02-11 07:34:40+0530 [-] adding 2 new schedulers, removing 0
+2022-02-11 07:34:40+0530 [-] initializing www plugin 'waterfall_view'
+2022-02-11 07:34:40+0530 [-] initializing www plugin 'console_view'
+2022-02-11 07:34:40+0530 [-] initializing www plugin 'grid_view'
+2022-02-11 07:34:40+0530 [-] initializing www plugin 'waterfall_view'
+2022-02-11 07:34:40+0530 [-] initializing www plugin 'console_view'
+2022-02-11 07:34:40+0530 [-] initializing www plugin 'grid_view'
+2022-02-11 07:34:40+0530 [-] BuildbotSite starting on 8010
+2022-02-11 07:34:40+0530 [-] Starting factory <buildbot.www.service.BuildbotSite object at 0x7f08486dcfd0>
+2022-02-11 07:34:40+0530 [-] adding 1 new workers, removing 0
+2022-02-11 07:34:40+0530 [-] PBServerFactory starting on 9989
+2022-02-11 07:34:40+0530 [-] Starting factory <twisted.spread.pb.PBServerFactory object at 0x7f08486618e0>
+2022-02-11 07:34:40+0530 [-] BuildMaster is running
+2022-02-11 07:34:40+0530 [-] buildbotNetUsageData: sending {'installid': 'b4854169eae871d426840ab5cfe25ce7160a2129', 'versions': {'Python': '3.8.10', 'Buildbot': '3.4.1', 'Twisted': '22.1.0'}, 'platform': {'platform': 'Linux-5.4.0-26-generic-x86_64-with-glibc2.29', 'system': 'Linux', 'machine': 'x86_64', 'processor': 'x86_64', 'python_implementation': 'CPython', 'version': '#30-Ubuntu SMP Mon Apr', 'distro': 'ubuntu:20.04'}, 'plugins': {'buildbot/worker/base/Worker': 1, 'buildbot/config/BuilderConfig': 1, 'buildbot/schedulers/basic/SingleBranchScheduler': 1, 'buildbot/schedulers/forcesched/ForceScheduler': 1, 'buildbot/changes/gitpoller/GitPoller': 1, 'buildbot/steps/source/git/Git': 1, 'buildbot/steps/shell/ShellCommand': 1}, 'db': 'sqlite', 'mq': 'simple', 'www_plugins': ['waterfall_view', 'console_view', 'grid_view']}
+2022-02-11 07:34:42+0530 [-] buildbotNetUsageData: buildbot.net said: ok
+2022-02-11 07:39:42+0530 [-] gitpoller: processing changes from "git://github.com/buildbot/hello-world.git"
+2022-02-11 07:40:55+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36602)
+2022-02-11 07:40:55+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36610)
+2022-02-11 07:40:55+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36604)
+2022-02-11 07:40:55+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36612)
+2022-02-11 07:40:58+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36608)
+2022-02-11 07:40:58+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36606)
+2022-02-11 07:44:40+0530 [-] gitpoller: processing changes from "git://github.com/buildbot/hello-world.git"
+2022-02-11 07:49:41+0530 [-] gitpoller: processing changes from "git://github.com/buildbot/hello-world.git"
+2022-02-11 07:54:40+0530 [-] gitpoller: processing changes from "git://github.com/buildbot/hello-world.git"
+2022-02-11 07:59:45+0530 [-] gitpoller: processing changes from "git://github.com/buildbot/hello-world.git"
+2022-02-11 08:04:40+0530 [-] gitpoller: processing changes from "git://github.com/buildbot/hello-world.git"
+2022-02-11 08:09:40+0530 [-] gitpoller: processing changes from "git://github.com/buildbot/hello-world.git"
+2022-02-11 08:14:40+0530 [-] gitpoller: processing changes from "git://github.com/buildbot/hello-world.git"
+2022-02-11 08:19:40+0530 [-] gitpoller: processing changes from "git://github.com/buildbot/hello-world.git"
+2022-02-11 08:24:40+0530 [-] gitpoller: processing changes from "git://github.com/buildbot/hello-world.git"
+2022-02-11 08:29:40+0530 [-] gitpoller: processing changes from "git://github.com/buildbot/hello-world.git"
+2022-02-11 08:31:09+0530 [-] beginning configuration update
+2022-02-11 08:31:09+0530 [-] Loading configuration from '/home/phoenix/master/bb-master/master.cfg'
+2022-02-11 08:31:09+0530 [-] /usr/local/lib/python3.8/dist-packages/buildbot/config.py:386: buildbot.warnings.ConfigWarning: `buildbotNetUsageData` is not configured and defaults to basic.
+	This parameter helps the buildbot development team to understand the installation base.
+	No personal information is collected.
+	Only installation software version info and plugin usage is sent.
+	You can `opt-out` by setting this variable to None.
+	Or `opt-in` for more information by setting it to "full".
+	
+2022-02-11 08:31:09+0530 [-] adding 1 new change_sources, removing 1
+2022-02-11 08:31:09+0530 [-] gitpoller: using workdir '/home/phoenix/master/bb-master/gitpoller-workdir'
+2022-02-11 08:31:09+0530 [-] adding 1 new builders, removing 0
+2022-02-11 08:31:10+0530 [-] initializing www plugin 'waterfall_view'
+2022-02-11 08:31:10+0530 [-] initializing www plugin 'console_view'
+2022-02-11 08:31:10+0530 [-] initializing www plugin 'grid_view'
+2022-02-11 08:31:10+0530 [-] adding 2 new workers, removing 1
+2022-02-11 08:31:10+0530 [-] (TCP Port 9989 Closed)
+2022-02-11 08:31:10+0530 [-] Stopping factory <twisted.spread.pb.PBServerFactory object at 0x7f08486618e0>
+2022-02-11 08:31:10+0530 [-] PBServerFactory starting on 9989
+2022-02-11 08:31:10+0530 [-] Starting factory <twisted.spread.pb.PBServerFactory object at 0x7f08483b67f0>
+2022-02-11 08:31:10+0530 [-] configuration update complete (took 0.430 seconds)
+2022-02-11 08:32:12+0530 [Broker,0,127.0.0.1] worker 'phoenix' attaching from IPv4Address(type='TCP', host='127.0.0.1', port=48838)
+2022-02-11 08:32:12+0530 [Broker,0,127.0.0.1] Got workerinfo from 'phoenix'
+2022-02-11 08:32:12+0530 [-] bot attached
+2022-02-11 08:32:12+0530 [Broker,0,127.0.0.1] Worker phoenix attached to runtests
+2022-02-11 08:32:18+0530 [Broker,1,127.0.0.1] worker 'phoenix2' attaching from IPv4Address(type='TCP', host='127.0.0.1', port=48840)
+2022-02-11 08:32:18+0530 [Broker,1,127.0.0.1] Got workerinfo from 'phoenix2'
+2022-02-11 08:32:18+0530 [-] bot attached
+2022-02-11 08:32:18+0530 [Broker,1,127.0.0.1] Worker phoenix2 attached to promotion
+2022-02-11 08:33:55+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36734)
+2022-02-11 08:33:55+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36740)
+2022-02-11 08:33:55+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36738)
+2022-02-11 08:33:57+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36742)
+2022-02-11 08:34:09+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36736)
+2022-02-11 08:36:13+0530 [-] gitpoller: processing changes from "git://github.com/MichalMal99/phoenix-rtos-project.git"
+2022-02-11 08:41:10+0530 [-] gitpoller: processing changes from "git://github.com/MichalMal99/phoenix-rtos-project.git"
+2022-02-11 08:45:25+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36794)
+2022-02-11 08:45:47+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36806)
+2022-02-11 08:45:50+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36804)
+2022-02-11 08:46:02+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36796)
+2022-02-11 08:46:10+0530 [-] gitpoller: processing changes from "git://github.com/MichalMal99/phoenix-rtos-project.git"
+2022-02-11 08:46:10+0530 [-] gitpoller: processing 1 changes: ['26eff71f79c0a8d3062d38754b206cb0f4261e21'] from "git://github.com/MichalMal99/phoenix-rtos-project.git" branch "master"
+2022-02-11 08:46:11+0530 [-] added change with revision 26eff71f79c0a8d3062d38754b206cb0f4261e21 to database
+2022-02-11 08:46:11+0530 [-] added buildset 1 to database
+2022-02-11 08:46:11+0530 [-] starting build <Build runtests number:None results:success> using worker <WorkerForBuilder builder='runtests' worker='phoenix' state=AVAILABLE>
+2022-02-11 08:46:11+0530 [-] <Build runtests number:None results:success>.startBuild
+2022-02-11 08:46:11+0530 [-] starting build <Build promotion number:None results:success> using worker <WorkerForBuilder builder='promotion' worker='phoenix2' state=AVAILABLE>
+2022-02-11 08:46:11+0530 [-] <Build promotion number:None results:success>.startBuild
+2022-02-11 08:46:11+0530 [-] acquireLocks(worker <Worker 'phoenix'>, locks [])
+2022-02-11 08:46:11+0530 [-] starting build <Build runtests number:1 results:success>.. pinging the worker <WorkerForBuilder builder='runtests' worker='phoenix' state=BUILDING>
+2022-02-11 08:46:11+0530 [-] sending ping
+2022-02-11 08:46:11+0530 [Broker,0,127.0.0.1] ping finished: success
+2022-02-11 08:46:11+0530 [-] acquireLocks(worker <Worker 'phoenix2'>, locks [])
+2022-02-11 08:46:11+0530 [-] starting build <Build promotion number:1 results:success>.. pinging the worker <WorkerForBuilder builder='promotion' worker='phoenix2' state=BUILDING>
+2022-02-11 08:46:11+0530 [-] sending ping
+2022-02-11 08:46:11+0530 [Broker,1,127.0.0.1] ping finished: success
+2022-02-11 08:46:11+0530 [-] <RemoteShellCommand '['git', '--version']'>: RemoteCommand.run [0]
+2022-02-11 08:46:11+0530 [-] command '['git', '--version']' in dir 'build'
+2022-02-11 08:46:11+0530 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', '--version']'> rc=0
+2022-02-11 08:46:11+0530 [-] <RemoteCommand 'stat' at 139673547572656>: RemoteCommand.run [1]
+2022-02-11 08:46:11+0530 [Broker,0,127.0.0.1] <RemoteCommand 'stat' at 139673547572656> rc=2
+2022-02-11 08:46:11+0530 [-] <RemoteCommand 'listdir' at 139673547600416>: RemoteCommand.run [2]
+2022-02-11 08:46:11+0530 [Broker,0,127.0.0.1] <RemoteCommand 'listdir' at 139673547600416> rc=0
+2022-02-11 08:46:11+0530 [-] No git repo present, making full clone
+2022-02-11 08:46:11+0530 [-] <RemoteShellCommand '['git', 'clone', '--branch', 'master', 'git://github.com/MichalMal99/phoenix-rtos-project.git', '.', '--progress']'>: RemoteCommand.run [3]
+2022-02-11 08:46:11+0530 [-] command '['git', 'clone', '--branch', 'master', 'git://github.com/MichalMal99/phoenix-rtos-project.git', '.', '--progress']' in dir 'build'
+2022-02-11 08:46:11+0530 [-] <RemoteShellCommand '['git', '--version']'>: RemoteCommand.run [4]
+2022-02-11 08:46:11+0530 [-] command '['git', '--version']' in dir 'build'
+2022-02-11 08:46:12+0530 [Broker,1,127.0.0.1] <RemoteShellCommand '['git', '--version']'> rc=0
+2022-02-11 08:46:12+0530 [-] <RemoteCommand 'stat' at 139673547250512>: RemoteCommand.run [5]
+2022-02-11 08:46:12+0530 [Broker,1,127.0.0.1] <RemoteCommand 'stat' at 139673547250512> rc=2
+2022-02-11 08:46:12+0530 [-] <RemoteCommand 'listdir' at 139673547133664>: RemoteCommand.run [6]
+2022-02-11 08:46:12+0530 [Broker,1,127.0.0.1] <RemoteCommand 'listdir' at 139673547133664> rc=0
+2022-02-11 08:46:12+0530 [-] No git repo present, making full clone
+2022-02-11 08:46:12+0530 [-] <RemoteShellCommand '['git', 'clone', '--branch', 'master', 'git://github.com/MichalMal99/phoenix-rtos-project.git', '.', '--progress']'>: RemoteCommand.run [7]
+2022-02-11 08:46:12+0530 [-] command '['git', 'clone', '--branch', 'master', 'git://github.com/MichalMal99/phoenix-rtos-project.git', '.', '--progress']' in dir 'build'
+2022-02-11 08:46:15+0530 [Broker,1,127.0.0.1] <RemoteShellCommand '['git', 'clone', '--branch', 'master', 'git://github.com/MichalMal99/phoenix-rtos-project.git', '.', '--progress']'> rc=0
+2022-02-11 08:46:15+0530 [-] <RemoteShellCommand '['git', 'checkout', '-f', '26eff71f79c0a8d3062d38754b206cb0f4261e21']'>: RemoteCommand.run [8]
+2022-02-11 08:46:15+0530 [-] command '['git', 'checkout', '-f', '26eff71f79c0a8d3062d38754b206cb0f4261e21']' in dir 'build'
+2022-02-11 08:46:15+0530 [Broker,1,127.0.0.1] <RemoteShellCommand '['git', 'checkout', '-f', '26eff71f79c0a8d3062d38754b206cb0f4261e21']'> rc=0
+2022-02-11 08:46:15+0530 [-] <RemoteShellCommand '['git', 'rev-parse', 'HEAD']'>: RemoteCommand.run [9]
+2022-02-11 08:46:15+0530 [-] command '['git', 'rev-parse', 'HEAD']' in dir 'build'
+2022-02-11 08:46:15+0530 [Broker,1,127.0.0.1] <RemoteShellCommand '['git', 'rev-parse', 'HEAD']'> rc=0
+2022-02-11 08:46:15+0530 [-] Got Git revision 26eff71f79c0a8d3062d38754b206cb0f4261e21
+2022-02-11 08:46:15+0530 [-] releaseLocks(Git(repourl='git://github.com/MichalMal99/phoenix-rtos-project.git', mode='incremental')): []
+2022-02-11 08:46:15+0530 [-]  step 'git' complete: success (None)
+2022-02-11 08:46:15+0530 [-] <RemoteShellCommand ''rm -r -f promotion-build''>: RemoteCommand.run [10]
+2022-02-11 08:46:15+0530 [-] command 'rm -r -f promotion-build' in dir 'build'
+2022-02-11 08:46:15+0530 [Broker,1,127.0.0.1] <RemoteShellCommand ''rm -r -f promotion-build''> rc=0
+2022-02-11 08:46:15+0530 [-] releaseLocks(ShellCommand(command='rm -r -f promotion-build')): []
+2022-02-11 08:46:15+0530 [-]  step 'shell' complete: success (None)
+2022-02-11 08:46:15+0530 [-] <RemoteShellCommand ''mkdir promotion-build''>: RemoteCommand.run [11]
+2022-02-11 08:46:15+0530 [-] command 'mkdir promotion-build' in dir 'build'
+2022-02-11 08:46:15+0530 [Broker,1,127.0.0.1] <RemoteShellCommand ''mkdir promotion-build''> rc=0
+2022-02-11 08:46:15+0530 [-] releaseLocks(ShellCommand(command='mkdir promotion-build')): []
+2022-02-11 08:46:15+0530 [-]  step 'shell_1' complete: success (None)
+2022-02-11 08:46:15+0530 [-] <RemoteShellCommand '['cmake', '..']'>: RemoteCommand.run [12]
+2022-02-11 08:46:15+0530 [-] command '['cmake', '..']' in dir 'build/promotion-build'
+2022-02-11 08:46:15+0530 [Broker,1,127.0.0.1] <RemoteShellCommand '['cmake', '..']'> rc=1
+2022-02-11 08:46:15+0530 [-] releaseLocks(CMake(path='..', workdir='build/promotion-build')): []
+2022-02-11 08:46:15+0530 [-]  step 'cmake' complete: failure (['cmake (failure)'])
+2022-02-11 08:46:15+0530 [-]  <Build promotion number:1 results:failure>: build finished
+2022-02-11 08:46:15+0530 [-] releaseLocks(<Worker 'phoenix2'>): []
+2022-02-11 08:46:21+0530 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'clone', '--branch', 'master', 'git://github.com/MichalMal99/phoenix-rtos-project.git', '.', '--progress']'> rc=0
+2022-02-11 08:46:21+0530 [-] <RemoteShellCommand '['git', 'checkout', '-f', '26eff71f79c0a8d3062d38754b206cb0f4261e21']'>: RemoteCommand.run [13]
+2022-02-11 08:46:21+0530 [-] command '['git', 'checkout', '-f', '26eff71f79c0a8d3062d38754b206cb0f4261e21']' in dir 'build'
+2022-02-11 08:46:21+0530 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'checkout', '-f', '26eff71f79c0a8d3062d38754b206cb0f4261e21']'> rc=0
+2022-02-11 08:46:21+0530 [-] <RemoteShellCommand '['git', 'rev-parse', 'HEAD']'>: RemoteCommand.run [14]
+2022-02-11 08:46:21+0530 [-] command '['git', 'rev-parse', 'HEAD']' in dir 'build'
+2022-02-11 08:46:21+0530 [Broker,0,127.0.0.1] <RemoteShellCommand '['git', 'rev-parse', 'HEAD']'> rc=0
+2022-02-11 08:46:21+0530 [-] Got Git revision 26eff71f79c0a8d3062d38754b206cb0f4261e21
+2022-02-11 08:46:21+0530 [-] releaseLocks(Git(repourl='git://github.com/MichalMal99/phoenix-rtos-project.git', mode='incremental')): []
+2022-02-11 08:46:21+0530 [-]  step 'git' complete: success (None)
+2022-02-11 08:46:21+0530 [-] <RemoteShellCommand ''rm -r -f runtests-build''>: RemoteCommand.run [15]
+2022-02-11 08:46:21+0530 [-] command 'rm -r -f runtests-build' in dir 'build'
+2022-02-11 08:46:21+0530 [Broker,0,127.0.0.1] <RemoteShellCommand ''rm -r -f runtests-build''> rc=0
+2022-02-11 08:46:21+0530 [-] releaseLocks(ShellCommand(command='rm -r -f runtests-build')): []
+2022-02-11 08:46:21+0530 [-]  step 'shell' complete: success (None)
+2022-02-11 08:46:21+0530 [-] <RemoteShellCommand ''mkdir runtests-build''>: RemoteCommand.run [16]
+2022-02-11 08:46:21+0530 [-] command 'mkdir runtests-build' in dir 'build'
+2022-02-11 08:46:22+0530 [Broker,0,127.0.0.1] <RemoteShellCommand ''mkdir runtests-build''> rc=0
+2022-02-11 08:46:22+0530 [-] releaseLocks(ShellCommand(command='mkdir runtests-build')): []
+2022-02-11 08:46:22+0530 [-]  step 'shell_1' complete: success (None)
+2022-02-11 08:46:22+0530 [-] <RemoteShellCommand '['cmake', '..', '-DBUILD_TESTS=ON']'>: RemoteCommand.run [17]
+2022-02-11 08:46:22+0530 [-] command '['cmake', '..', '-DBUILD_TESTS=ON']' in dir 'build/runtests-build'
+2022-02-11 08:46:22+0530 [Broker,0,127.0.0.1] <RemoteShellCommand '['cmake', '..', '-DBUILD_TESTS=ON']'> rc=1
+2022-02-11 08:46:22+0530 [-] releaseLocks(CMake(path='..', definitions={'BUILD_TESTS': 'ON'}, workdir='build/runtests-build')): []
+2022-02-11 08:46:22+0530 [-]  step 'cmake' complete: failure (['cmake (failure)'])
+2022-02-11 08:46:22+0530 [-]  <Build runtests number:1 results:failure>: build finished
+2022-02-11 08:46:22+0530 [-] releaseLocks(<Worker 'phoenix'>): []
+2022-02-11 08:48:45+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36824)
+2022-02-11 08:48:45+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36834)
+2022-02-11 08:48:45+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36836)
+2022-02-11 08:48:45+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36838)
+2022-02-11 08:48:46+0530 [-] Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=36832)
+2022-02-11 08:51:10+0530 [-] gitpoller: processing changes from "git://github.com/MichalMal99/phoenix-rtos-project.git"
+2022-02-11 08:56:10+0530 [-] gitpoller: processing changes from "git://github.com/MichalMal99/phoenix-rtos-project.git"
+2022-02-11 09:01:10+0530 [-] gitpoller: processing changes from "git://github.com/MichalMal99/phoenix-rtos-project.git"
+2022-02-11 09:06:10+0530 [-] gitpoller: processing changes from "git://github.com/MichalMal99/phoenix-rtos-project.git"
+2022-02-11 09:11:10+0530 [-] gitpoller: processing changes from "git://github.com/MichalMal99/phoenix-rtos-project.git"
+2022-02-11 09:16:10+0530 [-] gitpoller: processing changes from "git://github.com/MichalMal99/phoenix-rtos-project.git"
+2022-02-11 09:21:11+0530 [-] gitpoller: processing changes from "git://github.com/MichalMal99/phoenix-rtos-project.git"
+2022-02-11 09:26:10+0530 [-] gitpoller: processing changes from "git://github.com/MichalMal99/phoenix-rtos-project.git"
+2022-02-11 17:33:02+0530 [-] gitpoller: processing changes from "git://github.com/MichalMal99/phoenix-rtos-project.git"
